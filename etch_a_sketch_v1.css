@@ -1,0 +1,12 @@
+
+#container > div {
+    background-color: #8ca0ff;
+    height: 10px;  
+  } 
+
+  #container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10px, 1fr));
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+  }
